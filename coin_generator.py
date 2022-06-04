@@ -59,9 +59,9 @@ def task(sub : amino.SubClient,email : str,i : int):
         return None
 
 def threadit(acc : dict):
-    email=acc["email"]
-    device=acc["device"]
-    password=acc["password"]
+    email=acc["theriperjack7@gmail.com"]
+    device=acc["4260569C6C3D4A5427439C5BA7A113BB702522567DC99E157C2CD7964AA5B00ADD7CBF1D98C46CE666"]
+    password=acc["gu030506"]
     client=amino.Client(deviceId=device)
     log(cli=client,email=email,password=password)
     client.join_community(cid)
